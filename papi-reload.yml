@@ -1,0 +1,5 @@
+papi-reload-startup:
+  command: '$onload$'
+  type: 'RUN_COMMAND'
+  runcmd:
+    - 'papi reload'
